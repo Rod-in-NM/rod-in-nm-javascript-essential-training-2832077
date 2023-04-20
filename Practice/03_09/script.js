@@ -12,6 +12,7 @@ const backpack = {
   volume: 30,
   color: "grey",
   pocketNum: 15,
+  lidOpen: true, //I don't know why, but Morten didn't include a lidOpen property, so I've added one
   strapLength: {
     left: 26,
     right: 26,
@@ -22,5 +23,8 @@ const backpack = {
   newStrapLength: function (lengthLeft, lengthRight) {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
+  },
+  changeVolume: function (newVolume) {
+    this.volume = newVolume;
   },
 };
