@@ -6,3 +6,7 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Bike from "./Bike.js";
+
+const blueBike = new Bike(2, true, false);
