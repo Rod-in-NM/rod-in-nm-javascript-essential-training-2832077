@@ -7,3 +7,13 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+const prismUser = {
+  id: 1,
+  firstName: "Rod",
+  lastName: "Falanga",
+  someStuff: {
+    startDate: "1/1/2023",
+    endDate: "12/31/2023",
+  },
+};
